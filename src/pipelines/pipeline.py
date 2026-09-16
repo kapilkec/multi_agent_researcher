@@ -5,7 +5,7 @@ def run_research_pipeline(topic : str) -> dict:
     state = {}
 
     #search agent working 
-    print("\n"+" ="*50)
+    print( "\n"+" ="*50 )
     print("step 1 - search agent is working ...")
     print("="*50)
 
@@ -32,7 +32,7 @@ def run_research_pipeline(topic : str) -> dict:
 
 
     #step 2 - reader agent 
-    print("\n"+" ="*50)
+    print( "\n"+" ="*50 )
     print("step 2 - Reader agent is scraping top resources ...")
     print("="*50)
     reader_agent = build_reader_agent()
